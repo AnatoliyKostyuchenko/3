@@ -3,19 +3,19 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        massiveTwo();
+        massiveTwo(5,5);
 
     }
     public static void massiveTwo(int b,int a){
-String[][] massiveTwo = new String[b][a];
+String[][] arr = new String[b][a];
 try {
 massiveTwo(5,5);
-} catch(MyArraySizeException arr){
+} catch(MyArraySizeException massiveTwo){
 System.out.println("Не тот размер");
-} catch(MyArrayDataException arr){
-System.out.println("");
+} catch(MyArrayDataException massiveTwo){
+System.out.println("Преобразование не удалось");
 }finally{
-System.out.println("Всё верно");
+System.out.println("Закончено");
 }
     }
    public static void MyArraySizeException(){
